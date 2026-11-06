@@ -5,10 +5,7 @@ from google.genai import types
 
 # Lista de empresas o analistas a supervisar
 EMPRESAS = [
-    "Laboratorio Rovi",
-    "RELX",
-    "Verisk Analytics",
-    "Wolters Kluwer"
+"NKE","ADBE","SCL","CLX","FUL","BYD","DGE.L","TRU","DNR.MI","NESN.SW","TATE.L","RENK","HTO","PLX","XNYS:PNR","EFX","EXO","AON","BKNG","WKL.AS","SIKA.SW",
 ]
 
 HOY = datetime.date.today().strftime("%Y-%m-%d")
