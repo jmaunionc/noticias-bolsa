@@ -5,7 +5,27 @@ from google.genai import types
 
 # Lista de empresas o analistas a supervisar
 EMPRESAS = [
-"NKE","ADBE","SCL","CLX","FUL","BYD","DGE.L","TRU","DNR.MI","NESN.SW","TATE.L","RENK","HTO","PLX","XNYS:PNR","EFX","EXO","AON","BKNG","WKL.AS","SIKA.SW",
+    "Nike Inc",                      # NKE
+    "Adobe Inc",                     # ADBE
+    "Stepan Company",                # SCL
+    "The Clorox Company",            # CLX
+    "H.B. Fuller Company",           # FUL
+    "Boyd Group Services",           # BYD
+    "Diageo plc",                    # DGE.L
+    "TransUnion",                    # TRU
+    "Industrie DeNora",              # DNR.MI
+    "Nestlé S.A.",                   # NESN.SW
+    "Tate & Lyle PLC",               # TATE.L
+    "RENK Group AG",                 # RENK
+    "H2O America",                   # HTO (OTE)
+    "Pluxee NV",                     # PLX
+    "Pentair plc",                   # XNYS:PNR
+    "Equifax Inc",                   # EFX
+    "Exor N.V.",                     # EXO
+    "Aon plc",                       # AON
+    "Booking Holdings Inc",          # BKNG
+    "Wolters Kluwer N.V.",           # WKL.AS
+    "Sika AG"                        # SIKA.SW
 ]
 
 HOY = datetime.date.today().strftime("%Y-%m-%d")
