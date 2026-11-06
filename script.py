@@ -12,6 +12,7 @@ EMPRESAS = [
     "H.B. Fuller Company",           # FUL
     "Boyd Group Services",           # BYD
     "Diageo plc",                    # DGE.L
+    "Laboratorios Rovi"              # ROVI
     "TransUnion",                    # TRU
     "Industrie DeNora",              # DNR.MI
     "Nestlé S.A.",                   # NESN.SW
